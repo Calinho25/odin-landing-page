@@ -64,3 +64,30 @@ button {
     padding: 5px 20px;
     cursor: pointer;
 }
+.section-two {
+    display: flex;
+    flex-direction: column;
+}
+.title-two {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    margin: 20px 0;
+}
+.images-two {
+    display: flex;
+    justify-content: center;
+}
+/* in order to target the images not containers */
+.images-two img {
+    object-fit: cover;
+    height:150px;
+    width: 200px;
+    border: 3px solid #1f2937;
+    border-radius: 9px;
+}
+.caption {
+    text-align: center;
+}
