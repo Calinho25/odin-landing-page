@@ -112,5 +112,38 @@ button {
     /* we must increase the box width in order to right align */
     width: 650px;
     text-align: right;
-
+}
+.section-four {
+    /* do not use column if you need the button beside the text */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    background-color: #3882f6;
+    margin: 20px 350px;
+    color: #e5e7eb;
+    border-radius: 12px;
+}
+.cta {
+font-size: 23px;
+}
+.desc {
+    font-weight: 200;
+}
+.text-four {
+    display: flex;
+    flex-direction: column;
+}
+.section-four button {
+    border: 2px solid #e5e7eb;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    font-weight: 200;
+    font-size: 14px;
+    padding: 20px;
+    margin-top: 50px;
 }
