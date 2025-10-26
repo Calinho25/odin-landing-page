@@ -12,7 +12,7 @@ body {
     /* to separate the text to each side */
     justify-content: space-between;
     /*line up with section 1 */
-    padding: 8px 250px;
+    padding: 8px 140px;
     /* vertically centre */
     align-items: center;
 }
@@ -33,4 +33,34 @@ ul {
 .links {
     font-size: 18px;
     color: #e5e7eb;
+}
+.section-one {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1f2937;
+    padding: 70px;
+    height: fit-content;
+}
+.image-man {
+    width: 500px;
+}
+.title-one {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    padding: 0px;
+}
+.write-up {
+  width: 500px;
+  color: #e5e7eb;
+  font-size: 18px;
+  padding: 10px 0;
+}
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    margin: 10px 0;
+    border-radius: 6px;
+    padding: 5px 20px;
+    cursor: pointer;
 }
