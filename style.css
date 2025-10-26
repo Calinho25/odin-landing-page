@@ -1,5 +1,5 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Roboto", sans-serif;
     min-height: 100vh;
     margin: 0;
     display: flex;
@@ -7,6 +7,30 @@ body {
 }
 .header {
     display: flex;
-    height: 72px;
-    
+    height: 35px;
+    background-color: #1f2937;
+    /* to separate the text to each side */
+    justify-content: space-between;
+    /*line up with section 1 */
+    padding: 8px 250px;
+    /* vertically centre */
+    align-items: center;
+}
+a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+}
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+.links {
+    font-size: 18px;
+    color: #e5e7eb;
 }
